@@ -1,9 +1,10 @@
+import Navbar from '../../Navigation/Navbar.tsx'
 import React from 'react'
 
 const About = () => {
   return (
     <div>
-      About
+      <h1 className='mt-10'>about</h1>
     </div>
   )
 }

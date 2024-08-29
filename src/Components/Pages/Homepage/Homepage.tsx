@@ -1,10 +1,14 @@
+import Navbar from '../../Navigation/Navbar.tsx'
 import React from 'react'
 
 const Homepage = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Navbar />
+      <div>
+        Hallo
+      </div>
+    </>
   )
 }
 
