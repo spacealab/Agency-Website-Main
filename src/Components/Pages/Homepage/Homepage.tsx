@@ -1,3 +1,4 @@
+import CallToAction from '../../CalltoAction/CallToAction.tsx'
 import CardComponent from '../Price/CardComponent.tsx'
 import Features from '../../../Features/Features.tsx'
 import HeroSection from '../../HeroSection/HeroSection.tsx'
@@ -11,6 +12,7 @@ const Homepage = () => {
       <HeroSection />
       <Features />
       <CardComponent />
+      <CallToAction />
     </>
   )
 }

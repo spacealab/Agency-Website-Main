@@ -195,7 +195,6 @@ const CardComponent = () => {
                     </>
                     {/* end Card */}   
                 </div>
-            <div className='flex justify-end ml-[30%] w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500'></div>
         </div>
     )
 }
