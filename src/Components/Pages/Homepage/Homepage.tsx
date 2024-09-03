@@ -4,6 +4,7 @@ import Features from '../../../Features/Features.tsx'
 import HeroSection from '../../HeroSection/HeroSection.tsx'
 import Navbar from '../../Navigation/Navbar.tsx'
 import React from 'react'
+import Review from '../Review/review.tsx'
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
       <Features />
       <CardComponent />
       <CallToAction />
+      <Review />
     </>
   )
 }

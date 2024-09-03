@@ -45,7 +45,7 @@ function Navbar() {
             </div>
           </div>
           {/* desktop nav end */}
-          <div className={`${open ? null : "hidden"} h-[25rem]`}>
+          <div className={`${open ? null : "hidden"} h-[17rem]`}>
             <ul>
               <li className='text-white hover:text-blue-400 font-semibold pl-8 cursor-pointer pb-4 pt-6'>
                 <Link to='/'>Home</Link>
