@@ -74,6 +74,7 @@ const Review = () => {
                     </div>
                 </div>
             </div>
+            <div className='flex w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500'></div>
         </section>
     </div>
   )
