@@ -1,4 +1,8 @@
 import Footer from '../../Footer/Footer.tsx'
+import Image1 from '../../../images/Contact/ayroui.svg'
+import Image2 from '../../../images/Contact/graygrids.svg'
+import Image3 from '../../../images/Contact/lineicons.svg'
+import Image4 from '../../../images/Contact/uideck.svg'
 import Navbar from '../../Navigation/Navbar.tsx'
 import React from 'react'
 
@@ -999,12 +1003,12 @@ const Contact = () => {
                   className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
                 >
                   <img
-                    src="https://cdn.tailgrids.com/2.2/assets/images/brands/graygrids.svg"
+                    src={Image1}
                     alt="image"
                     className="h-10 w-full dark:hidden"
                   />
                   <img
-                    src="https://cdn.tailgrids.com/2.2/assets/images/brands/graygrids-white.svg"
+                    src={Image1}
                     alt="image"
                     className="hidden h-10 w-full dark:block"
                   />
@@ -1014,12 +1018,12 @@ const Contact = () => {
                   className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
                 >
                   <img
-                    src="https://cdn.tailgrids.com/2.2/assets/images/brands/lineicons.svg"
+                    src={Image2}
                     alt="image"
                     className="h-10 w-full dark:hidden"
                   />
                   <img
-                    src="https://cdn.tailgrids.com/2.2/assets/images/brands/lineIcons-white.svg"
+                    src={Image2}
                     alt="image"
                     className="hidden h-10 w-full dark:block"
                   />
@@ -1029,12 +1033,12 @@ const Contact = () => {
                   className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
                 >
                   <img
-                    src="https://cdn.tailgrids.com/2.2/assets/images/brands/uideck.svg"
+                    src={Image3}
                     alt="image"
                     className="h-10 w-full dark:hidden"
                   />
                   <img
-                    src="https://cdn.tailgrids.com/2.2/assets/images/brands/uideck-white.svg"
+                    src={Image3}
                     alt="image"
                     className="hidden h-10 w-full dark:block"
                   />
@@ -1044,12 +1048,12 @@ const Contact = () => {
                   className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
                 >
                   <img
-                    src="https://cdn.tailgrids.com/2.2/assets/images/brands/ayroui.svg"
+                    src={Image4}
                     alt="image"
                     className="h-10 w-full dark:hidden"
                   />
                   <img
-                    src="https://cdn.tailgrids.com/2.2/assets/images/brands/ayroui-white.svg"
+                    src={Image4}
                     alt="image"
                     className="hidden h-10 w-full dark:block"
                   />
