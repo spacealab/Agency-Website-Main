@@ -42,7 +42,7 @@ const About = () => {
               className='flex justify-center text-center'
             >
               <h1 className='flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-500 font-extrabold text-[3rem]'>
-                Wee are Inspired by Results and driven by Data
+                Who are wee and Why are Wee so good ?
               </h1>
             </motion.div>
 

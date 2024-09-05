@@ -1,6 +1,6 @@
 import CallToAction from '../../CalltoAction/CallToAction.tsx'
 import CardComponent from '../Price/CardComponent.tsx'
-import Features from '../../../Features/Features.tsx'
+import Features from '../Features/Features.tsx'
 import Footer from '../../Footer/Footer.tsx'
 import HeroSection from '../../HeroSection/HeroSection.tsx'
 import Navbar from '../../Navigation/Navbar.tsx'
