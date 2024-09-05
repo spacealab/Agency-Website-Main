@@ -122,54 +122,55 @@ const CardComponent = () => {
                     </> 
                     : 
                     <>
-                    <div className='max-w-[1240px] max-auto grid sm:grid-cols-3 gap-8'>
-                        <div>
-                            <Card
-                                image={image1}
-                                Package={"Growth Package"}
-                                Price={"$350"}
-                                Feature1={"Advanced Algorithmic Solutions"}
-                                Feature2={"Trained Personnel Support"}
-                                Feature3={"Innovative Technology Integration"}
-                                Feature4={"Powerful Analytics Capabilities"}
-                                Feature5={"Personalized Solutions"}
-                                Feature6={"Continuous Innovation"}
-                                iconColor1={"text-green-500"}
-                                iconColor2={"text-green-500"}
-                                iconColor3={"text-green-500"}
-                                iconColor4={"text-green-300"}
-                                iconColor5={"text-green-300"}
-                                iconColor6={"text-green-300"}
-                                buttonBg={"bg-gray-300"}
-                                hoverBgButton={"hover:bg-gray-200-500"}
+                    <div className='flex justify-center items-center'>
+                        <div className='max-w-[1240px] grid sm:grid-cols-3 gap-8'>
+                            <div>
+                                <Card
+                                    image={image1}
+                                    Package={"Growth Package"}
+                                    Price={"$350"}
+                                    Feature1={"Advanced Algorithmic Solutions"}
+                                    Feature2={"Trained Personnel Support"}
+                                    Feature3={"Innovative Technology Integration"}
+                                    Feature4={"Powerful Analytics Capabilities"}
+                                    Feature5={"Personalized Solutions"}
+                                    Feature6={"Continuous Innovation"}
+                                    iconColor1={"text-green-500"}
+                                    iconColor2={"text-green-500"}
+                                    iconColor3={"text-green-500"}
+                                    iconColor4={"text-green-300"}
+                                    iconColor5={"text-green-300"}
+                                    iconColor6={"text-green-300"}
+                                    buttonBg={"bg-gray-300"}
+                                    hoverBgButton={"hover:bg-gray-200-500"}
                                 />
-                        </div>
-                        <div>
-                            <Card
-                                image={image2}
-                                Package={"Standard Package"}
-                                Price={"$1200"}
-                                Feature1={"Advanced Algorithmic Solutions"}
-                                Feature2={"Trained Personnel Support"}
-                                Feature3={"Innovative Technology Integration"}
-                                Feature4={"Powerful Analytics Capabilities"}
-                                Feature5={"Personalized Solutions"}
-                                Feature6={"Continuous Innovation"}
-                                iconColor1={"text-green-500"}
-                                iconColor2={"text-green-500"}
-                                iconColor3={"text-green-500"}
-                                iconColor4={"text-green-300"}
-                                iconColor5={"text-green-300"}
-                                iconColor6={"text-green-300"}
-                                buttonBg={"bg-green-400"}
-                                hoverBgButton={"hover:bg-green-500"}
-                                buttonTextColor={"text-white"}
-                                standOutBg={"bg-blue-100/30"}
-                                marginMiddle={"md:my-6"}
-                            />
-                        </div>
-                        <div>
-                            <Card
+                            </div>
+                            <div>
+                                <Card
+                                    image={image2}
+                                    Package={"Standard Package"}
+                                    Price={"$1200"}
+                                    Feature1={"Advanced Algorithmic Solutions"}
+                                    Feature2={"Trained Personnel Support"}
+                                    Feature3={"Innovative Technology Integration"}
+                                    Feature4={"Powerful Analytics Capabilities"}
+                                    Feature5={"Personalized Solutions"}
+                                    Feature6={"Continuous Innovation"}
+                                    iconColor1={"text-green-500"}
+                                    iconColor2={"text-green-500"}
+                                    iconColor3={"text-green-500"}
+                                    iconColor4={"text-green-300"}
+                                    iconColor5={"text-green-300"}
+                                    iconColor6={"text-green-300"}
+                                    buttonBg={"bg-green-400"}
+                                    hoverBgButton={"hover:bg-green-500"}
+                                    buttonTextColor={"text-white"}
+                                    standOutBg={"bg-blue-100/30"}
+                                    marginMiddle={"md:my-6"}
+                                />
+                            </div>
+                            <div>
+                                <Card
                                     image={image3}
                                     Package={"Enterprise Package"}
                                     Price={"$7500"}
@@ -187,9 +188,11 @@ const CardComponent = () => {
                                     iconColor6={"text-green-500"}
                                     buttonBg={"bg-gray-300"}
                                     hoverBgButton={"hover:bg-gray-200-500"}
-                            />
+                                />
+                            </div>
                         </div>
                     </div>
+
                     </>}
 
                     </>

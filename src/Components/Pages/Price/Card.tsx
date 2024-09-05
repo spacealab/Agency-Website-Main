@@ -15,7 +15,7 @@ const Card = ({ standOutBg, marginMiddle, Package, Price, image, Feature1, Featu
                 <p className='py-2 border-b mx-8 flex justify-between'>{Feature5} <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor5}`} /></p>
                 <p className='py-2 mx-8 flex justify-between'>{Feature6} <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor6}`} /></p>
             </div>
-            <button className={`justify-center flex mx-auto w-[200px] ${buttonBg} ${hoverBgButton} ${buttonTextColor} rounded-md font-medium my-6 scroll-py-3`}>
+            <button className={`justify-center flex mx-auto w-[200px] sm:py-3 ${buttonBg} ${hoverBgButton} ${buttonTextColor} rounded-md font-medium my-6 scroll-py-3`}>
                 Contact Support
             </button>
         </div>

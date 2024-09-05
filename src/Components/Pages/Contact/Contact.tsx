@@ -1072,7 +1072,7 @@ const Contact = () => {
                     Our Blogs
                     </span>
                     <h2
-                        className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px] dark:text-white"
+                        className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]"
                         >
                         Our Recent News
                     </h2>

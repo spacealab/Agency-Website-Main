@@ -24,29 +24,30 @@ const Footer = () => {
           </div>
         </div>
         <div className='text-white sm:w-[900px] sm:ml-[18%] sm:mr-[12%] sm:pt-0'>
-          <div>
-            <h1 className='sm:w-[30rem] md:text-4xl sm:text-3xl text-center text-2xl font-bold py-2'>
-              Want tips & Tricks to optimize your Work flow?
-            </h1>
-            <p className='text-center pb-4'>Sign up to our newsletter and stay up to date.</p>
-          </div>
-          <div className='my-4'>
-            <div className='justify-center flex'>
-              <input 
-                className='placeholder:pl-2 h-10 sm:mr-[-50px] sm:w-[50%] mx-auto sm:h-[35px] rounded-md text-black border border-gray-300 px-4' 
-                type='email' 
-                placeholder='Enter your E-Mail'
-              />
-              <button className='bg-blue-400 ml-2 w-28 sm:h-[40px] hover:bg-blue-500 rounded-md font-medium'>
-                Sign Up
-              </button>
-            </div>
-            <p className='text-white text-sm mx-10 flex-col text-center pt-4'>
-              We care about the protection of your data. Read our
-              <span className='underline cursor-pointer text-blue-400'>Privacy Policy</span>
-            </p>
-          </div>
+        <div>
+          <h1 className='sm:w-[30rem] md:text-4xl sm:text-3xl text-center text-2xl font-bold py-2'>
+            Want tips & Tricks to optimize your Work flow?
+          </h1>
+          <p className='text-center pb-4'>Sign up to our newsletter and stay up to date.</p>
         </div>
+        <div className='my-4'>
+          <div className='flex justify-center items-center'>
+            <input 
+              className='placeholder:pl-2 h-10 sm:w-[50%] mx-auto sm:h-[40px] rounded-md text-black border border-gray-300 px-4' 
+              type='email' 
+              placeholder='Enter your E-Mail'
+            />
+            <button className='bg-blue-400 ml-[6px] w-28 sm:h-[40px] hover:bg-blue-500 rounded-md font-medium'>
+              Sign Up
+            </button>
+          </div>
+          <p className='text-white text-sm mx-10 flex-col text-center pt-4'>
+            We care about the protection of your data. Read our <br />
+            <span className='underline cursor-pointer text-blue-400'>Privacy Policy</span>
+          </p>
+        </div> 
+      </div>
+
 
       </div>
       {/* footer top section end */}

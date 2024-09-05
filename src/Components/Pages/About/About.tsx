@@ -30,8 +30,8 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <div className='max-w-screen overflow-x-hidden bg-gradient-to-b from-gray-100/10 to-gray-200/50 pt-20 font-poppins'>
-        <div className='sm:h-screen h-[80rem] -mb-20 sm:mb-0 '>
+      <div className='max-w-screen bg-gradient-to-b from-gray-100/10 to-gray-200/50 pt-20 font-poppins'>
+        <div className='h-[80rem] -mb-20 sm:mb-0 '>
           <div className='mt-20'>
             <motion.div
               ref={ref}
@@ -96,7 +96,7 @@ const About = () => {
                 From advanced algorithms and powerful analytics capabilities to seamless technology integration and ongoing support from our trained personnel, we are dedicated to helping businesses grow and succeed. Join us on this transformative journey, and together, we will propel your business to new heights of success.
               </p>
             </motion.div>
-          </div>
+          </div> 
         </div>
       </div>
       <div className='max-w-screen overflow-x-hidden font-poppins'>
@@ -110,197 +110,181 @@ const About = () => {
                 </div>
             </div>
             <div className="w-full bg-gray-100 px-10 pt-10">
-                <div className="container mx-auto">
-                    <div className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                            <div className="rounded overflow-hidden shadow-md bg-white">
-                                <div className="absolute -mt-20 w-full flex justify-center">
-                                    <div className="h-32 w-32">
-                                        <img src={TeamMember1} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
-                                    </div>
-                                </div>
-                                <div className="px-6 mt-16">
-                                    <div className="font-bold text-3xl text-center pb-1">Andres Berlin</div>
-                                    <p className="text-gray-800 text-sm text-center">Chief Executive Officer</p>
-                                    <p className="text-center text-gray-600 text-base pt-3 font-normal">The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.</p>
-                                    <div className="w-full flex justify-center pt-5 pb-5">
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                            <VscGithubAlt size={25} className='text-gray-500 hover:text-purple-500'/>
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <TfiTwitter size={25} className='text-gray-500 hover:text-blue-500' />
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <BiLogoInstagram  size={25} className='text-gray-500 hover:text-red-500' />
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+              <div className="container mx-auto">
+                <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+                  
+                  <div className="relative mt-16 mb-32 sm:mb-24 xl:max-w-sm">
+                    <div className="rounded overflow-hidden shadow-md bg-white">
+                      <div className="absolute -mt-20 w-full flex justify-center">
+                        <div className="h-32 w-32">
+                          <img src={TeamMember1} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
                         </div>
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                            <div className="rounded overflow-hidden shadow-md bg-white">
-                                <div className="absolute -mt-20 w-full flex justify-center">
-                                    <div className="h-32 w-32">
-                                        <img src={TeamMember2} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
-                                    </div>
-                                </div>
-                                <div className="px-6 mt-16">
-                                    <div className="font-bold text-3xl text-center pb-1">Silene Tokyo</div>
-                                    <p className="text-gray-800 text-sm text-center">Product Design Head</p>
-                                    <p className="text-center text-gray-600 text-base pt-3 font-normal">The emphasis on innovation and technology in our companies has resulted in a few of them establishing global benchmarks in product design and development.</p>
-                                    <div className="w-full flex justify-center pt-5 pb-5">
-                                        <a href="#" className="mx-5">
-                                          <div>
-                                            <VscGithubAlt size={25} className='text-gray-500'/>
-                                          </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <TfiTwitter size={25} className='text-gray-500 hover:text-blue-500' />
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <BiLogoInstagram  size={25} className='text-gray-500 hover:text-red-500' />
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                      </div>
+                      <div className="px-6 mt-16">
+                        <div className="font-bold text-3xl text-center pb-1">Andres Berlin</div>
+                        <p className="text-gray-800 text-sm text-center">Chief Executive Officer</p>
+                        <p className="text-center text-gray-600 text-base pt-3 font-normal">
+                          The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.
+                        </p>
+                        <div className="w-full flex justify-center pt-5 pb-5">
+                          <a href="#" className="mx-5">
+                            <VscGithubAlt size={25} className="text-gray-500 hover:text-purple-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <TfiTwitter size={25} className="text-gray-500 hover:text-blue-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <BiLogoInstagram size={25} className="text-gray-500 hover:text-red-500" />
+                          </a>
                         </div>
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                            <div className="rounded overflow-hidden shadow-md bg-white">
-                                <div className="absolute -mt-20 w-full flex justify-center">
-                                    <div className="h-32 w-32">
-                                        <img src={TeamMember3} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
-                                    </div>
-                                </div>
-                                <div className="px-6 mt-16">
-                                    <div className="font-bold text-3xl text-center pb-1">Johnson Stone</div>
-                                    <p className="text-gray-800 text-sm text-center">Manager Development</p>
-                                    <p className="text-center text-gray-600 text-base pt-3 font-normal">Our services encompass the assessment and repair of property damage caused by water, fire, smoke, or mold. We can also be a part of the restoration.</p>
-                                    <div className="w-full flex justify-center pt-5 pb-5">
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <VscGithubAlt size={25} className='text-gray-500'/>
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <TfiTwitter size={25} className='text-gray-500 hover:text-blue-500' />
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <BiLogoInstagram  size={25} className='text-gray-500 hover:text-red-500' />
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                            <div className="rounded overflow-hidden shadow-md bg-white">
-                                <div className="absolute -mt-20 w-full flex justify-center">
-                                    <div className="h-32 w-32">
-                                        <img src={TeamMember4} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
-                                    </div>
-                                </div>
-                                <div className="px-6 mt-16">
-                                    <div className="font-bold text-3xl text-center pb-1">Dean Jones</div>
-                                    <p className="text-gray-800 text-sm text-center">Principal Software Engineer</p>
-                                    <p className="text-center text-gray-600 text-base pt-3 font-normal">An avid open-source developer who loves to be creative and inventive. I have 20 years of experience in the field.</p>
-                                    <div className="w-full flex justify-center pt-5 pb-5">
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <VscGithubAlt size={25} className='text-gray-500'/>
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <TfiTwitter size={25} className='text-gray-500 hover:text-blue-500' />
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <BiLogoInstagram  size={25} className='text-gray-500 hover:text-red-500' />
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                            <div className="rounded overflow-hidden shadow-md bg-white">
-                                <div className="absolute -mt-20 w-full flex justify-center">
-                                    <div className="h-32 w-32">
-                                        <img src={TeamMember5} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
-                                    </div>
-                                </div>
-                                <div className="px-6 mt-16">
-                                    <div className="font-bold text-3xl text-center pb-1">Rachel Adams</div>
-                                    <p className="text-gray-800 text-sm text-center">Product Design Head</p>
-                                    <p className="text-center text-gray-600 text-base pt-3 font-normal">Product designer with interests in immersive computing and XR, political ventures, and emerging technologies. Able to take ideas and give them a life.</p>
-                                    <div className="w-full flex justify-center pt-5 pb-5">
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <VscGithubAlt size={25} className='text-gray-500'/>
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <TfiTwitter size={25} className='text-gray-500 hover:text-blue-500' />
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <BiLogoInstagram  size={25} className='text-gray-500 hover:text-red-500' />
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                            <div className="rounded overflow-hidden shadow-md bg-white">
-                                <div className="absolute -mt-20 w-full flex justify-center">
-                                    <div className="h-32 w-32">
-                                        <img src={TeamMember6} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
-                                    </div>
-                                </div>
-                                <div className="px-6 mt-16">
-                                    <div className="font-bold text-3xl text-center pb-1">Charles Keith</div>
-                                    <p className="text-gray-800 text-sm text-center">UX Designer</p>
-                                    <p className="text-center text-gray-600 text-base pt-3 font-normal">A UX designer is the voice of the customer. Our job is to look beyond the business goals. We don't just experience user interface but also questions it.</p>
-                                    <div className="w-full flex justify-center pt-5 pb-5">
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <VscGithubAlt size={25} className='text-gray-500'/>
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <TfiTwitter size={25} className='text-gray-500 hover:text-blue-500' />
-                                            </div>
-                                        </a>
-                                        <a href="#" className="mx-5">
-                                            <div>
-                                              <BiLogoInstagram  size={25} className='text-gray-500 hover:text-red-500' />
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      </div>
                     </div>
+                  </div>
+
+                  <div className="relative mt-16 mb-32 sm:mb-24 xl:max-w-sm">
+                    <div className="rounded overflow-hidden shadow-md bg-white">
+                      <div className="absolute -mt-20 w-full flex justify-center">
+                        <div className="h-32 w-32">
+                          <img src={TeamMember2} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
+                        </div>
+                      </div>
+                      <div className="px-6 mt-16">
+                        <div className="font-bold text-3xl text-center pb-1">Silene Tokyo</div>
+                        <p className="text-gray-800 text-sm text-center">Product Design Head</p>
+                        <p className="text-center text-gray-600 text-base pt-3 font-normal">
+                          The emphasis on innovation and technology in our companies has resulted in a few of them establishing global benchmarks in product design and development.
+                        </p>
+                        <div className="w-full flex justify-center pt-5 pb-5">
+                          <a href="#" className="mx-5">
+                            <VscGithubAlt size={25} className="text-gray-500 hover:text-purple-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <TfiTwitter size={25} className="text-gray-500 hover:text-blue-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <BiLogoInstagram size={25} className="text-gray-500 hover:text-red-500" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="relative mt-16 mb-32 sm:mb-24 xl:max-w-sm">
+                    <div className="rounded overflow-hidden shadow-md bg-white">
+                      <div className="absolute -mt-20 w-full flex justify-center">
+                        <div className="h-32 w-32">
+                          <img src={TeamMember3} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
+                        </div>
+                      </div>
+                      <div className="px-6 mt-16">
+                        <div className="font-bold text-3xl text-center pb-1">Johnson Stone</div>
+                        <p className="text-gray-800 text-sm text-center">Manager Development</p>
+                        <p className="text-center text-gray-600 text-base pt-3 font-normal">
+                          Our services encompass the assessment and repair of property damage caused by water, fire, smoke, or mold. We can also be a part of the restoration.
+                        </p>
+                        <div className="w-full flex justify-center pt-5 pb-5">
+                          <a href="#" className="mx-5">
+                            <VscGithubAlt size={25} className="text-gray-500 hover:text-purple-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <TfiTwitter size={25} className="text-gray-500 hover:text-blue-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <BiLogoInstagram size={25} className="text-gray-500 hover:text-red-500" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="relative mt-16 mb-32 sm:mb-24 xl:max-w-sm">
+                    <div className="rounded overflow-hidden shadow-md bg-white">
+                      <div className="absolute -mt-20 w-full flex justify-center">
+                        <div className="h-32 w-32">
+                          <img src={TeamMember4} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
+                        </div>
+                      </div>
+                      <div className="px-6 mt-16">
+                        <div className="font-bold text-3xl text-center pb-1">Dean Jones</div>
+                        <p className="text-gray-800 text-sm text-center">Principal Software Engineer</p>
+                        <p className="text-center text-gray-600 text-base pt-3 font-normal">
+                          An avid open-source developer who loves to be creative and inventive. I have 20 years of experience in the field.
+                        </p>
+                        <div className="w-full flex justify-center pt-5 pb-5">
+                          <a href="#" className="mx-5">
+                            <VscGithubAlt size={25} className="text-gray-500 hover:text-purple-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <TfiTwitter size={25} className="text-gray-500 hover:text-blue-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <BiLogoInstagram size={25} className="text-gray-500 hover:text-red-500" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="relative mt-16 mb-32 sm:mb-24 xl:max-w-sm">
+                    <div className="rounded overflow-hidden shadow-md bg-white">
+                      <div className="absolute -mt-20 w-full flex justify-center">
+                        <div className="h-32 w-32">
+                          <img src={TeamMember5} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
+                        </div>
+                      </div>
+                      <div className="px-6 mt-16">
+                        <div className="font-bold text-3xl text-center pb-1">Rachel Adams</div>
+                        <p className="text-gray-800 text-sm text-center">Product Design Head</p>
+                        <p className="text-center text-gray-600 text-base pt-3 font-normal">
+                          Product designer with interests in immersive computing and XR, political ventures, and emerging technologies. Able to take ideas and give them a life.
+                        </p>
+                        <div className="w-full flex justify-center pt-5 pb-5">
+                          <a href="#" className="mx-5">
+                            <VscGithubAlt size={25} className="text-gray-500 hover:text-purple-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <TfiTwitter size={25} className="text-gray-500 hover:text-blue-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <BiLogoInstagram size={25} className="text-gray-500 hover:text-red-500" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="relative mt-16 mb-32 sm:mb-24 xl:max-w-sm">
+                    <div className="rounded overflow-hidden shadow-md bg-white">
+                      <div className="absolute -mt-20 w-full flex justify-center">
+                        <div className="h-32 w-32">
+                          <img src={TeamMember6} alt="alt" className="rounded-full object-cover h-full w-full shadow-md" />
+                        </div>
+                      </div>
+                      <div className="px-6 mt-16">
+                        <div className="font-bold text-3xl text-center pb-1">Charles Keith</div>
+                        <p className="text-gray-800 text-sm text-center">UX Designer</p>
+                        <p className="text-center text-gray-600 text-base pt-3 font-normal">
+                          A UX designer is the voice of the customer. Our job is to look beyond the business goals. We don't just experience user interface but also questions it.
+                        </p>
+                        <div className="w-full flex justify-center pt-5 pb-5">
+                          <a href="#" className="mx-5">
+                            <VscGithubAlt size={25} className="text-gray-500 hover:text-purple-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <TfiTwitter size={25} className="text-gray-500 hover:text-blue-500" />
+                          </a>
+                          <a href="#" className="mx-5">
+                            <BiLogoInstagram size={25} className="text-gray-500 hover:text-red-500" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
+              </div>
             </div>
+
         </div>
         {/* end team section */}
         <div className='w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500'></div>
